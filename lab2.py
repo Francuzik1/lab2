@@ -15,5 +15,7 @@ print(bister)
 for e in bister:
     e = Adapter(e[0], e[1])
 print(e.for_printer('Spain'))
+print(e.for_printer('Spain'))
 print(e.for_printer('Italy'))
 print(e.for_printer('Belarus'))
+e.deliter('Spain')
